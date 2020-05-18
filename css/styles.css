@@ -36,12 +36,24 @@ body {
   letter-spacing: 0.03em;
 }
 
+/* img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+} */
+
 .container {
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
   /* outline: 2px solid tomato; */
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .list {
@@ -486,4 +498,23 @@ body {
 .section-list.works .item:hover,
 .section-list.works .item:focus {
   background-color: aqua;
+}
+
+.card {
+  width: 370px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  overflow: hidden;
+}
+
+.card-content {
+  padding: 20px 24px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.card-content.golden-stars {
+  padding: 20px 18px;
 }
