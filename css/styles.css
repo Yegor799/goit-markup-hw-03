@@ -414,6 +414,7 @@ img {
 .copyright {
   margin-top: 0px;
   margin-bottom: 0px;
+  /* border-top: 1px solid rgba(255, 255, 255, 0.1); */
 
   color: var(--footer-signature-color);
   font-size: 12px;
@@ -501,7 +502,6 @@ img {
 }
 
 .card {
-  width: 370px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   overflow: hidden;
@@ -510,11 +510,13 @@ img {
 .card-content {
   padding: 20px 24px;
   background: #ffffff;
-  border: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
 }
 
-.card-content.golden-stars {
+/* .card-content.golden-stars {
   padding: 20px 18px;
-}
+} */
