@@ -29,6 +29,12 @@ html {
   box-sizing: inherit;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 body {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
@@ -36,24 +42,12 @@ body {
   letter-spacing: 0.03em;
 }
 
-/* img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-} */
-
 .container {
-  width: 1170px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
   /* outline: 2px solid tomato; */
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
 }
 
 .list {
